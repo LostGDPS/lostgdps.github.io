@@ -1,23 +1,13 @@
 <html>
   <head>
     <style>
-  .center {
-      position: absolute;
-      left: 50%;
-      transform: translate(-50%, 0%);
-  }
-  .logos {
-      position: absolute;
-      left: 50%;
-      top: -50%;
-      transform: translate(-50%, -50%);
-  }
-.spacer {
-      width: 125px;
+h1 {
       color: #000000;
   }
-.VSpacerLarge {
-      height: 50%;
+h2 {
+      color: #000000;
+  }
+h5 {
       color: #000000;
   }
 .inline {
@@ -35,37 +25,30 @@ body {
   font-family: Lexend
 }
 body { background-color: #000000; }
-.header {
-  padding: 10px 16px;
-  background: #000000;
-  color: #ffffff;
-}
-.content {
-  padding: 16px;
-}
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%
-}
-.sticky + .content {
-  padding-top: 102px;
-}
-      
+.rounded-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #3498db; /* Blue background color */
+            color: #fff; /* White text color */
+            border-radius: 5px; /* Rounded corners */
+            text-decoration: none; /* Remove underlines for links */
+        }
     </style>
   </head>
   <body>
-    <div class="header" id="myHeader">
-  <div class="center">
-  <div class="inline"><h3>LostGDPS</h3><div class="spacer"><p>space</p></div></div>
-  <div class="inline"><a href="/index.html"><h4>Home</h4></a><div class="spacer"><p>space</p></div></div>
-  <div class="inline"><a href="/download.html"><h4>Download</h4></a><div class="spacer"><p>space</p></div></div>
-  <div class="inline"><a href="/tools.html"><h4>Tools</h4></a><div class="spacer"><p>space</p></div></div>
-  </div> 
-</div>
+    <h1>text</h1>
     <div class="logos">
       <img src="/images/logo.png"></img>
+      <h2>text</h2>
       <img src="/images/title.png"></img>
+      <h2>text</h2>
     </div>
+  <div class="buttons">
+    <a href="/download.html" class="rounded-button">Download</a>
+    <h5>text</h5>
+    <a href="https://lostgdp.ps.fhgdps.com/tools/account/registerAccount.php" class="rounded-button">Register Account</a>
+    <h5>text</h5>
+    <a href="/tools.html" class="rounded-button">Tools</a>
+  </div>
   </body>
 </html>
