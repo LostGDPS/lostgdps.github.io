@@ -12,11 +12,6 @@
       top: -50%;
       transform: translate(-50%, -50%);
   }
-body {
-      position: absolute;
-      left: 50%;
-      transform: translate(-50%, 0%);
-  }
 .spacer {
       width: 125px;
       color: #000000;
@@ -68,20 +63,6 @@ body { background-color: #000000; }
   <div class="inline"><a href="/tools.html"><h4>Tools</h4></a><div class="spacer"><p>space</p></div></div>
   </div> 
 </div>
-    <script>
-window.onscroll = function() {myFunction()};
-​
-var header = document.getElementById("myHeader");
-var sticky = header.offsetTop;
-​
-function myFunction() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
-  } else {
-    header.classList.remove("sticky");
-  }
-}
-</script>
     <div class="logos">
       <img src="/images/logo.png"></img>
       <img src="/images/title.png"></img>
