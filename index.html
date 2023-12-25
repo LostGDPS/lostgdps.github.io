@@ -1,6 +1,11 @@
 <html>
   <head>
     <style>
+body {
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, 0%);
+  }
 h1 {
       color: #000000;
   }
@@ -33,16 +38,24 @@ body { background-color: #000000; }
             border-radius: 5px; /* Rounded corners */
             text-decoration: none; /* Remove underlines for links */
         }
+.logo {
+      width: 175px;
+  }
+.title {
+      height: 135px;
+  }
     </style>
   </head>
   <body>
     <h1>text</h1>
-    <div class="logos">
+    <div class="logo">
       <img src="/images/logo.png"></img>
-      <h2>text</h2>
-      <img src="/images/title.png"></img>
-      <h2>text</h2>
     </div>
+      <h2>text</h2>
+    <div class="title">
+      <img src="/images/title.png"></img>
+    </div>
+      <h2>text</h2>
   <div class="buttons">
     <a href="/download.html" class="rounded-button">Download</a>
     <h5>text</h5>
