@@ -24,8 +24,14 @@ body {
             border-radius: 5px; /* Rounded corners */
             text-decoration: none; /* Remove underlines for links */
         }
-.level-container {
-    width: 50vw;
+.level {
+    background-color: #555555;
+    border-radius: 5px;
+    width: 100%;
+    color: #ffffff;
+    display: inline-block;
+    padding: 2% 2%;
+    grid-template-columns: 1fr 1fr;
 }
     </style>
 <script type="module" id="levels-component" name="lc-by-lightyyt" src="./listlevel.js">
@@ -35,10 +41,21 @@ body {
     <img src="/images/demon.png"></img>
     <br>
     <br>
-    <div class="level-container">
+    <h2>Extreme Demon</h2>
+    <br>
+    <br>
     <list-level img="levels/test.jpg" creator="RobTop" lv="Clutterfunk"></list-level>
     <list-level img="levels/test.jpg" creator="RobTop" lv="Clutterfunk"></list-level>
     <list-level img="levels/test.jpg" creator="RobTop" lv="Clutterfunk"></list-level>
+    <!--
+    <div class="level">
+      <h2>1. VSC</h2>
+      <p>by Bobobobo/nev</p>
+    </div><br><br>
+    <div class="level">
+      <h2>2.GliTTer</h2>
+      <p>by nev</p>
     </div>
+    -->
   </body>
 </html>
