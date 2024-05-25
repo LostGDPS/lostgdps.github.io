@@ -14,7 +14,7 @@ body {
   src: url("fonts/lexend.woff") format('woff');
 }
 body {
-  font-family: Lexend
+  font-family: Lexend;
 }
 .rounded-button {
             display: inline-block;
@@ -27,12 +27,15 @@ body {
 .level {
     background-color: #555555;
     border-radius: 5px;
-    width: 50%;
+    width: 100%;
     color: #ffffff;
     display: inline-block;
-    padding: 10px 20px;
+    padding: 2% 2%;
+    grid-template-columns: 1fr 1fr;
 }
     </style>
+<script type="module" id="levels-component" name="lc-by-lightyyt" src="./listlevel.js">
+</script>
   </head>
   <body>
     <img src="/images/demon.png"></img>
@@ -41,13 +44,8 @@ body {
     <h2>Extreme Demon</h2>
     <br>
     <br>
-    <div class="level">
-      <h2>1. VSC</h2>
-      <p>by Bobobobo/nev</p>
-    </div><br><br>
-    <div class="level">
-      <h2>2.GliTTer</h2>
-      <p>by nev</p>
-    </div>
+    <list-level img="levels/test.jpg" creator="RobTop" lv="Clutterfunk"></list-level>
+    <list-level img="levels/test.jpg" creator="RobTop" lv="Clutterfunk"></list-level>
+    <list-level img="levels/test.jpg" creator="RobTop" lv="Clutterfunk"></list-level>
   </body>
 </html>
