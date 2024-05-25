@@ -1,4 +1,4 @@
- _levels = 1;
+let _levels = 1;
 class _listLevel extends HTMLElement{
 	constructor(){super();
 		const template = `
