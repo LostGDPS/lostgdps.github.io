@@ -18,4 +18,4 @@ connectedCallback(){
 }
 }
 
-window.customElements.define("list-level", _listLevel);"list-level", _listLevel);
+window.customElements.define("list-level", _listLevel);
