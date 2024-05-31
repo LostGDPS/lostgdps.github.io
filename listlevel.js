@@ -5,8 +5,8 @@ const template = `
 <div class="level" style="display:grid; width:50%;">
 <img style="object-fit: cover; width:60%; aspect-ratio:16/9; border-radius:5px;" src="${this.getAttribute("img")}"></img>
 <span class="level_info" style="flex:0;">
-<h1 style="font-size:36px;">${_levels}. ${this.getAttribute("lv")}</h2>
-<h3 style="font-size:28px;">${this.getAttribute("creator")}</p>
+<h1 style="font-size:32px;">${_levels}. ${this.getAttribute("lv")}</h2>
+<h3 style="font-size:24px;">${this.getAttribute("creator")}</p>
 </span>
 </div>
 <br/><br/>
